@@ -1,0 +1,57 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+        "plans": {
+            "type": "array",
+            "items": {
+                "type": "string",
+                "enum": ["shortest", "fastest", "quietest"]
+            },
+            "title": "Names of routing plans"
+        },
+        "purposes": {
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        },
+        "disag_threshold": {
+            "type": "array",
+            "items": {
+                "type": "integer"
+            }
+        },
+        "min_subpoint_distance": {
+            "type": "array",
+            "items": {
+                "type": "integer"
+            }
+        },
+        "min_flow": {
+            "type": "array",
+            "items": {
+                "type": "integer"
+            }
+        },
+        "max_to_route": {
+            "type": "array",
+            "items": {
+                "type": "integer"
+            }
+        },
+        "min_distance_meters": {
+            "type": "array",
+            "items": {
+                "type": "integer"
+            }
+        },
+        "max_distance_meters": {
+            "type": "array",
+            "items": {
+                "type": "integer"
+            }
+        }
+    },
+    "required": ["plans", "purposes", "disag_threshold", "min_subpoint_distance", "min_distance_meters", "max_distance_meters"]
+}

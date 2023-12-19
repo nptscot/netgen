@@ -1,10 +1,10 @@
 {
     "plans": ["fastest", "balanced", "quietest", "ebike"],
+    "purposes": ["work", "school", "shopping", "other"],
+    "disag_threshold": [100],
+    "min_subpoint_distance": [200],
     "min_flow": [1],
     "max_to_route": [250],
-    "date_routing": ["2023-12-05"],
-    "geo_subset": [true],
-    "open_data_build": [false],
-    "disag_threshold": [100],
-    "min_distance_meters": [500]
-  }
+    "min_distance_meters": [500],
+    "max_distance_meters": [10000]
+}
