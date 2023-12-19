@@ -37,3 +37,13 @@ There are two main types of inputs: required and optional.
   Population Density Maps
 
 # Outputs
+
+The outputs can be seen as the inputs into the web application used for
+communicating the results:
+
+- Route networks with attributes at the segment level
+- Zone level outputs, e.g. number of people travelling from / to each
+  zone by different modes and purposes
+- Geographic representations of trip attractors
+- Route level outputs, e.g. number of people travelling along each route
+  by different modes and purposes (not implemented in the NPT currently)
